@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lavishly+Yours&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(https://yucca.co.za/wp-content/uploads/2025/09/yucca-packaging-homepage-intro-plastic-cups-for-iced-chilled-drinks-2.jpg);
+    background-size: cover;
+}
+header{
+    border-bottom: 1px solid #b1b1b1;
+    padding: 10px;
+}
+header:hover{
+    background-color: rgba(255, 255, 255, 1);
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #ccc;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .left {
+    padding-left: 80px;
+    display: flex;
+    align-items: center;   
+}
+nav .left img {
+    width: 50px;
+    margin-right: 10px;
+}
+nav .left h1 {
+    font-size: 24px;
+    color: gray;
+}
+nav .center ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "Magnetik", sans-serif;
+}
+nav .center ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+nav .center ul li a:hover {
+    color: #007BFF;
+}
+nav .right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+nav .right .popup-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav .right .popup-icon span {
+    font-size: 18px;
+    color: #333;
+}
+nav .right .popup-icon a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+nav .right .popup-icon a:hover {
+    color: #007BFF;
+}
+
+
